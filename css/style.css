@@ -145,7 +145,7 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .about-me div {
@@ -199,6 +199,8 @@ nav ul li a{
 }
 
 .project-image {
+    margin-right: 20px;
+    margin-left: 25px;
     display: grid;
     grid-template-areas: 
         'Css HTML'
@@ -206,10 +208,29 @@ nav ul li a{
     grid-template-columns: 1fr 1fr;
     row-gap: 10px;
     column-gap: 50px;
+    flex-wrap: wrap;
 }
 
 
 
 .project-image img {
-    width: 200px;
+    height: 300px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.project-image img:hover {
+    transform: scale(1.1);
+}
+
+#css {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#HTML {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
