@@ -105,12 +105,12 @@ nav ul li a{
     margin-top: 500px;
 }
 
-.Welcome div {
+.welcome-text {
     background-color: rgba(10, 10, 10, 0.61);
     width: 60%;
     padding: 0px 10px;
-    margin-top: 20px;
     border-radius: 20px;
+    margin-top: 20px;
 }
 
 .Welcome h2 {
@@ -119,4 +119,18 @@ nav ul li a{
 
 .Welcome p {
     font-size: 20px;
+}
+
+.Welcome-image {
+    width: 30%;
+    max-height: 650px;
+}
+
+.Welcome-image img {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    max-height: 650px;
+    max-width: 520px;
+    border-radius: 10px;
 }
