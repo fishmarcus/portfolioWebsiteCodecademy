@@ -162,3 +162,54 @@ nav ul li a{
 .about-me p {
     font-size: 20px;
 }
+
+/* My Projects */ 
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects div {
+    margin-top: 20px;
+}
+
+.projects-text {
+    background-color: rgba(10, 10, 10, 0.61);
+    margin-left: 20px;
+    padding: 0 10px;
+    border-radius: 20px;
+    width: 60%;
+    min-height: 500px;
+    display: flex;
+    align-content: center;
+    display: grid;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.projects-text h2 {
+    font-size: 30px;
+}
+
+.projects-text p {
+    font-size: 20px;
+}
+
+.project-image {
+    display: grid;
+    grid-template-areas: 
+        'Css HTML'
+        'Javascript Github';
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 50px;
+}
+
+
+
+.project-image img {
+    width: 200px;
+}
