@@ -69,6 +69,7 @@ nav ul li a{
     display: flex;
     align-self: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 /* Title */
@@ -233,4 +234,54 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+/* Contact */ 
+
+.Contact {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#Contact-text {
+    background-color: rgba(10, 10, 10, 0.61);
+    margin-left: 20px;
+    
+    text-align: center;
+    width: 60%;
+    padding: 0px 10px 20px 10px;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Contact-text h2 {
+    font-size: 30px;
+}
+
+#Contact-text p {
+    font-size: 20px;
+}
+
+#Contact-text a {
+    color: white;
+}
+
+#map {
+    margin-right: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+/* footer */ 
+
+footer {
+    width: 100%;
+    background-color: rgba(10, 10, 10, 0.993);
+    height: 80px;
+    color: white;
 }
